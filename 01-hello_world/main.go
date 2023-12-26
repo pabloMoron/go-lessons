@@ -14,3 +14,4 @@ func main() { // If cloud environment => main() receives params
 }
 
 // in console type go run ./main.go
+// in console type go build ./main.go to compile executable file
