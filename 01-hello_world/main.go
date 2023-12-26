@@ -9,7 +9,7 @@ import (
 	"fmt"
 )
 
-func main() {
+func main() { // If cloud environment => main() receives params
 	fmt.Println("Hello world!") // Add newline
 }
 
