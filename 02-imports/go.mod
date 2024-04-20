@@ -1,4 +1,4 @@
-module 02-imports
+module github.com/pabloMoron/go-lessons/02-imports
 
 go 1.21.3
 
