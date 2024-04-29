@@ -2,7 +2,7 @@ package constants
 
 import "fmt"
 
-func ShowInts() {
+func PrintlnInts() {
 	var integer int              // Declaration, variables always are initialized with default value, not null
 	integer_32_bits := int32(10) // Declaration + assignation operator (:=)
 	integer_64_bits := int64(10)
