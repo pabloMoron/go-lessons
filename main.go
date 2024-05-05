@@ -9,8 +9,8 @@ import (
 		By convention, the package name is the same as the last element of the import path.
 	*/
 	"fmt"
-	"go-lessons/01-hello_world/hello_world"
-	"go-lessons/02-imports/constants"
+	"github.com/pmoron94/go-lessons/01-hello_world/hello-world"
+	"github.com/pmoron94/go-lessons/02-constants/constants"
 	"math/rand"
 )
 

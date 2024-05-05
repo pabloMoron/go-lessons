@@ -1,3 +1,3 @@
-module go-lessons
+module github.com/pmoron94/go-lessons
 
-go 1.21.3
+go 1.22.2
