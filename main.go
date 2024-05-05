@@ -17,8 +17,9 @@ import (
 
 func main() { // If cloud environment => main() receives params
 	fmt.Println("Random:", rand.Intn(10)) // Add newline
-	constants.PrintlnInts()
-	hello_world.HelloWorld()
+
+	hello_world.Greet()
+	constants.PrintIntegers()
 }
 
 // in console type go run ./main.go

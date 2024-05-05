@@ -5,6 +5,6 @@ import (
 	"fmt"
 )
 
-func HelloWorld() {
+func Greet() { // To export a function
 	fmt.Println("Hello world!") // Add newline
 }
