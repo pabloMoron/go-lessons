@@ -11,12 +11,14 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/pmoron94/go-lessons/constants/constants"
+	"github.com/pmoron94/go-lessons/constants"
+	"github.com/pmoron94/go-lessons/hello_world"
 )
 
 func main() { // If cloud environment => main() receives params
 	fmt.Println("Random:", rand.Intn(10)) // Add newline
 	constants.PrintlnInts()
+	hello_world.HelloWorld()
 }
 
 // in console type go run ./main.go
