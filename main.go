@@ -29,6 +29,9 @@ func main() { // If cloud environment => main() receives params
 	variables.OtherVariables()
 	fmt.Println("------------")
 
+	variables.Constants()
+	fmt.Println("------------")
+
 	integer := 2318
 	txt1 := string(integer) // bad conversion
 	fmt.Println(txt1)
