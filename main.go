@@ -60,7 +60,7 @@ func main() { // If cloud environment => main() receives params
 	fmt.Println(phrase01)
 	fmt.Println("------------")
 
-	value02, phrase02 := exercises.StringToInt("err")
+	value02, phrase02 := exercises.StringToInt("Test")
 	fmt.Println(value02)
 	fmt.Println(phrase02)
 	fmt.Println("------------")
