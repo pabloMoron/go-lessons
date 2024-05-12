@@ -12,7 +12,7 @@ import (
 	"math/rand"
 
 	"github.com/pmoron94/go-lessons/blocks"
-	"github.com/pmoron94/go-lessons/exercices"
+	"github.com/pmoron94/go-lessons/exercises"
 	"github.com/pmoron94/go-lessons/functions"
 	"github.com/pmoron94/go-lessons/hello_world"
 	"github.com/pmoron94/go-lessons/variables"
@@ -55,12 +55,12 @@ func main() { // If cloud environment => main() receives params
 	blocks.Switch()
 	fmt.Println("------------")
 
-	value01, phrase01 := exercices.StringToInt("101")
+	value01, phrase01 := exercises.StringToInt("101")
 	fmt.Println(value01)
 	fmt.Println(phrase01)
 	fmt.Println("------------")
 
-	value02, phrase02 := exercices.StringToInt("err")
+	value02, phrase02 := exercises.StringToInt("err")
 	fmt.Println(value02)
 	fmt.Println(phrase02)
 	fmt.Println("------------")
