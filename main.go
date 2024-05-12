@@ -11,6 +11,7 @@ import (
 	"fmt"
 	"math/rand"
 
+	"github.com/pmoron94/go-lessons/blocks"
 	"github.com/pmoron94/go-lessons/functions"
 	"github.com/pmoron94/go-lessons/hello_world"
 	"github.com/pmoron94/go-lessons/variables"
@@ -37,8 +38,7 @@ func main() { // If cloud environment => main() receives params
 	fmt.Println(txt1)
 	fmt.Println("------------")
 
-	integer2 := 8
-	ok, txt2 := functions.IntToString(integer2, 0, 0)
+	ok, txt2 := functions.IntToString(integer, 0, 0)
 	if ok {
 		fmt.Println(txt2)
 	}
@@ -46,6 +46,12 @@ func main() { // If cloud environment => main() receives params
 
 	x, y := functions.Split(11)
 	fmt.Println("x: ", x, "y: ", y)
+	fmt.Println("------------")
+
+	blocks.Conditional()
+	fmt.Println("------------")
+
+	blocks.Switch()
 	fmt.Println("------------")
 }
 
