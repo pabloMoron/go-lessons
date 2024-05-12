@@ -10,6 +10,7 @@ func StringToInt(number string) (parsedInt int, phrase string) {
 	if err != nil {
 		fmt.Println("Err", err)
 	}
+
 	if parsedInt >= 100 {
 		phrase = "Is greater or equals to 100"
 	} else {
